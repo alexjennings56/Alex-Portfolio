@@ -10,6 +10,8 @@ body{
 .topheader{
 	width:100%;
 	height:300px;
+	position:fixed;
+	top:0;
 }
 	
 .logo{
@@ -57,7 +59,18 @@ a{
 	padding:20px;
 }
 
-/*.aboutme{
-	background-color:black;
+.aboutme{
 	height:408px;
-}*/
+	margin-top:300px;
+	display:flex;
+	font-size:20px;
+	font-family:"spartan";
+}
+
+.imgme{
+	width:300px;
+	height:300px;
+	margin:55px;
+}
+
+
