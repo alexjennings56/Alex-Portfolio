@@ -1,0 +1,94 @@
+*{
+	box-sizing:border-box;
+}
+
+body{
+	margin:0;
+	padding:0;
+}
+
+.topheader{
+	width:100%;
+	height:300px;
+	position:fixed;
+	top:0;
+}
+	
+.logo{
+	background-color:#E6E6FA;
+	width:100%;
+	height:200px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+	border-style:solid
+}
+
+.logotext{
+	font-size:30px;
+	font-family:"spartan";
+	width:60%;
+	margin:auto;
+}
+
+.navlinks{
+	border:none;
+	font-size:25px;
+	padding:10px;
+	line-height:50px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:100px;
+	font-family:"spartan";
+	text-decoration: none;
+}
+
+.navholder{
+	background-color:#E6E6FA;
+	width:50%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border-radius: 20px;
+	border-style:solid;
+	
+}
+
+a{
+	text-decoration: none;
+	color:black;
+	padding:20px;
+}
+
+.aboutme{
+	height:408px;
+	margin-top:300px;
+	display:flex;
+	font-size:20px;
+	font-family:"spartan";
+	background-color:#E6E6FA;
+	border-style:solid
+}
+
+.aboutme p{
+	font-size:25px;
+	line-height:40px;
+	margin:50px;
+}
+
+.imgme{
+	width:300px;
+	height:300px;
+	margin:55px;
+	border-style:solid
+}
+
+.projectholder{
+	background-color:#E6E6FA;
+	width:100%;
+	height:1000px;
+	margin-top:50px;
+	border-style:solid;
+}
