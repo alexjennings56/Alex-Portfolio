@@ -5,6 +5,7 @@
 body{
 	margin:0;
 	padding:0;
+	font-size:62.5%;
 }
 
 .topheader{
@@ -26,15 +27,20 @@ body{
 }
 
 .logotext{
-	font-size:30px;
+	font-size:1.8rem;
 	font-family:"spartan";
 	width:60%;
 	margin:auto;
 }
+@media only screen and (max-width: 900px) {
+  .logotext {
+	  font-size:1rem;
+  }
+}
 
 .navlinks{
 	border:none;
-	font-size:25px;
+	font-size:1.5rem;
 	padding:10px;
 	line-height:50px;
 	display:flex;
@@ -44,7 +50,12 @@ body{
 	font-family:"spartan";
 	text-decoration: none;
 }
-
+@media only screen and (max-width: 1200px) {
+  .navlinks {
+	  font-size:1.0rem;
+	  width:100vw;
+  }
+}
 .navholder{
 	background-color:#5F9EA0;
 	width:50%;
@@ -54,6 +65,15 @@ body{
 	border-radius: 20px;
 	border-style:solid;
 }
+@media only screen and (max-width: 900px) {
+  .navholder {
+	  display:flex;
+	  justify-content:row;
+	  text-align:center;
+	  font-size:1.0rem;
+	  width:100%;
+  }
+}
 
 a{
 	text-decoration: none;
@@ -62,16 +82,21 @@ a{
 }
 
 .aboutme{
-	height:408px;
 	margin-top:300px;
 	display:flex;
-	font-size:20px;
+	font-size:1.2rem;
 	font-family:"spartan";
 	background-color:#5F9EA0;
 }
+@media only screen and (max-width: 900px) {
+  .aboutme {
+	  display:block;
+	  
+  }
+}
 
 .aboutme p{
-	font-size:20px;
+	font-size:1.2rem;
 	line-height:50px;
 	margin:50px;
 }
@@ -81,6 +106,13 @@ a{
 	height:300px;
 	margin:55px;
 	border-style:solid;
+}
+@media only screen and (max-width: 900px) {
+  .imgme {
+	  display: block;
+	  width: 40%;
+	  margin: 0 auto 20px auto;  
+  }
 }
 
 .projectholder{
@@ -92,15 +124,16 @@ a{
 	justify-content:center;
 }
 
-.projectholder h1{
+.projects h1{
 	text-align:center;
 }
 
 .projects{
 	font-family:"spartan";
-	background-color:white;
+	background-color:#ffffff;
 	width:75%;
 	margin:10px;
+	font-size:1rem;
 }
 
 .pject{
@@ -129,6 +162,7 @@ a{
 	text-align:center;
 	line-height:150px;
 	border-right: 1px solid #000000;
+	font-size:1.7rem;
 }
 
 .contacts{
@@ -137,7 +171,7 @@ a{
 
 .contacts h1{
 	text-align:center;
-	font-size:40px;
+	font-size:2rem;
 	font-family:"spartan";
 	margin:10px;
 	padding:20px;
