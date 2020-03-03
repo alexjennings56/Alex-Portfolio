@@ -10,15 +10,13 @@ body{
 
 .topheader{
 	width:100%;
-	height:300px;
-	position:fixed;
+	
 	top:0;
 }
 	
 .logo{
 	background-color:#008080;
 	width:100%;
-	height:200px;
 	display:flex;
 	justify-content:center;
 	align-items:center;
@@ -82,7 +80,7 @@ a{
 }
 
 .aboutme{
-	margin-top:300px;
+	margin-top:50px;
 	display:flex;
 	font-size:1.2rem;
 	font-family:"spartan";
@@ -103,9 +101,9 @@ a{
 
 .imgme{
 	width:300px;
-	height:300px;
 	margin:55px;
 	border-style:solid;
+	border-radius:50%;
 }
 @media only screen and (max-width: 900px) {
   .imgme {
@@ -118,8 +116,7 @@ a{
 .projectholder{
 	background-color:#5F9EA0;
 	width:100%;
-	height:650px;
-	margin-top:100px;
+	margin-top:50px;
 	display:flex;
 	justify-content:center;
 }
@@ -135,6 +132,13 @@ a{
 	margin:10px;
 	font-size:1rem;
 }
+@media only screen and (max-width: 900px) {
+  .projects {
+	  position:relative;
+	  display:block;
+	  height:auto;
+  }
+}
 
 .pject{
 	width: 25%;
@@ -147,12 +151,59 @@ a{
 	width:100%;
 	background-color:black;
 }
+@media only screen and (max-width: 900px) {
+  .project1{
+	  width:50%;
+	  height:285;
+  }
+}  
+@media only screen and (max-width: 900px) {
+  .project2{
+	  width:50%;
+	  height:285;
+  }
+} 
+@media only screen and (max-width: 900px) {
+  .project3{
+	  width:50%;
+	  height:285;
+  }
+} 
+@media only screen and (max-width: 900px) {
+  .project4{
+	  width:50%;
+	  height:285;
+  }
+} 
+@media only screen and (max-width: 900px) {
+  .project5{
+	  width:50%;
+	  height:285;
+  }
+} 
+@media only screen and (max-width: 900px) {
+  .project6{
+	  width:50%;
+	  height:285;
+  }
+} 
+@media only screen and (max-width: 900px) {
+  .project7{
+	  width:50%;
+	  height:285;
+  }
+} 
+@media only screen and (max-width: 900px) {
+  .project8{
+	  width:50%;
+	  height:285;
+  }
+} 
 
 .contactholder{
 	background-color:#5F9EA0;
 	width:100%;
-	height:300px;
-	margin-top:100px;
+	margin-top:50px;
 }	
 
 .contactholder h2{
@@ -177,7 +228,6 @@ a{
 	padding:20px;
 	width: 25%;
 	margin: auto;
-	padding: 10px;
 }
 
 .cicons img{
@@ -186,7 +236,6 @@ a{
 	margin:auto;
 	padding:10px;
 	width:200px;
-	height:200px;
 	line-height:20px;
 }
 
