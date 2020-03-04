@@ -10,7 +10,7 @@ body {
 }
 
 .topheader {
-	position:relative;
+	position: relative;
 	width: 100%;
 	top: 0;
 }
@@ -234,7 +234,7 @@ a {
 }
 
 .cicons img:hover {
-	opacity: 1
+	opacity: 1;
 }
 @media only screen and (max-width: 900px) {
   .cicons img {
