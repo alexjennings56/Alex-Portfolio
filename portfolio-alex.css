@@ -89,7 +89,6 @@ a{
 @media only screen and (max-width: 900px) {
   .aboutme {
 	  display:block;
-	  
   }
 }
 
@@ -155,53 +154,11 @@ a{
 	background-color:black;
 }
 @media only screen and (max-width: 900px) {
-  .project1{
+  .pject{
 	  width:50%;
 	  height:285;
   }
 }  
-@media only screen and (max-width: 900px) {
-  .project2{
-	  width:50%;
-	  height:285;
-  }
-} 
-@media only screen and (max-width: 900px) {
-  .project3{
-	  width:50%;
-	  height:285;
-  }
-} 
-@media only screen and (max-width: 900px) {
-  .project4{
-	  width:50%;
-	  height:285;
-  }
-} 
-@media only screen and (max-width: 900px) {
-  .project5{
-	  width:50%;
-	  height:285;
-  }
-} 
-@media only screen and (max-width: 900px) {
-  .project6{
-	  width:50%;
-	  height:285;
-  }
-} 
-@media only screen and (max-width: 900px) {
-  .project7{
-	  width:50%;
-	  height:285;
-  }
-} 
-@media only screen and (max-width: 900px) {
-  .project8{
-	  width:50%;
-	  height:285;
-  }
-} 
 
 .contactholder{
 	background-color:#5F9EA0;
@@ -221,12 +178,7 @@ a{
 @media only screen and (max-width: 900px) {
   .contactholder h2{
 	  border-right:0;
-	  
-  }
-} 
-@media only screen and (max-width: 900px) {
-  .contactholder h2{
-	  width:100%;
+	   width:100%;
   }
 } 
 
