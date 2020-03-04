@@ -51,7 +51,7 @@ body {
 }
 @media only screen and (max-width: 1230px) {
   .navlinks {
-	  font-size: 1.0rem;
+	  font-size: 1.5rem;
 	  width: 100vw;
   }
 }
@@ -229,13 +229,19 @@ a {
 	padding: 10px;
 	width: 200px;
 	line-height: 20px;
+	opacity: 0.6;
+	transition: 0.3s;
+}
+
+.cicons img:hover {
+	opacity: 1
 }
 @media only screen and (max-width: 900px) {
   .cicons img {
 	  border-bottom: 1px solid #000000;
   }
 } 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1220px) {
   .cicons img {
 	  width: 33.3%;
   }
