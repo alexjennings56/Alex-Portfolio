@@ -28,7 +28,7 @@ body{
 	font-size:1.8rem;
 	font-family:"spartan";
 	width:60%;
-	margin:auto;
+	margin:center;
 }
 @media only screen and (max-width: 900px) {
   .logotext {
@@ -99,16 +99,19 @@ a{
 	margin:50px;
 }
 
+.imagecontainer{
+	margin:65px;
+}
+
 .imgme{
-	width:300px;
-	margin:55px;
+	width:100%;
 	border-style:solid;
 	border-radius:50%;
 }
 @media only screen and (max-width: 900px) {
-  .imgme {
+  .imagecontainer {
 	  display: block;
-	  width: 40%;
+	  width: 50%;
 	  margin: 0px auto 20px auto;  
   }
 }
