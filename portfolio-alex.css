@@ -2,110 +2,115 @@
 	box-sizing:border-box;
 }
 
-body{
-	margin:0;
-	padding:0;
-	font-size:62.5%;
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 62.5%;
 }
 
-.topheader{
-	width:100%;
-	
-	top:0;
+.topheader {
+	width: 100%;
+	top: 0;
 }
 	
-.logo{
-	background-color:#008080;
-	width:100%;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	text-align:center;
-	border-bottom:solid;
+.logo {
+	background-color: #008080;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-bottom: solid;
 }
 
-.logotext{
-	font-size:1.8rem;
-	font-family:"spartan";
-	width:60%;
-	margin:center;
+.logotext {
+	font-size: 1.8rem;
+	font-family: "spartan";
+	width: 60%;
+	margin: center;
 }
 @media only screen and (max-width: 900px) {
   .logotext {
-	  font-size:1rem;
+	  font-size: 1rem;
   }
 }
 
-.navlinks{
-	border:none;
-	font-size:1.5rem;
-	padding:10px;
-	line-height:50px;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	height:1px;
-	font-family:"spartan";
+.navlinks {
+	border: none;
+	font-size: 1.5rem;
+	padding: 10px;
+	line-height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 1px;
+	font-family: "spartan";
 	text-decoration: none;
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1230px) {
   .navlinks {
-	  font-size:1.0rem;
-	  width:100vw;
+	  font-size: 1.0rem;
+	  width: 100vw;
   }
 }
-.navholder{
-	background-color:#5F9EA0;
-	width:50%;
-	display:flex;
-	justify-content:center;
-	align-items:center;
+.navholder {
+	background-color: #5F9EA0;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	border-radius: 20px;
-	border-style:solid;
+	border-style: solid;
 }
 @media only screen and (max-width: 900px) {
   .navholder {
-	  display:flex;
-	  justify-content:row;
-	  text-align:center;
-	  font-size:1.0rem;
-	  width:100%;
+	  display: flex;
+	  justify-content: row;
+	  text-align: center;
+	  font-size: 1.0rem;
+	  width: 100%;
   }
 }
 
-a{
+a {
 	text-decoration: none;
-	color:black;
+	color: black;
+}
+
+.navlink {
 	padding:20px;
 }
 
-.aboutme{
-	margin-top:50px;
-	display:flex;
-	font-size:1.2rem;
-	font-family:"spartan";
-	background-color:#5F9EA0;
+.aboutme {
+	margin-top: 50px;
+	display: flex;
+	font-size: 1.2rem;
+	font-family: "spartan";
+	background-color: #5F9EA0;
 }
 @media only screen and (max-width: 900px) {
   .aboutme {
-	  display:block;
+	  display: block;
   }
 }
 
-.aboutme p{
-	font-size:1.2rem;
-	line-height:50px;
-	margin:50px;
+.aboutme p {
+	font-size: 1.2rem;
+	line-height: 50px;
+	margin: 50px;
 }
 
-.imagecontainer{
-	margin:65px;
+.imagecontainer {
+	margin: 65px;
+	min-width: 350px;
 }
 
-.imgme{
-	width:100%;
-	border-style:solid;
-	border-radius:50%;
+.imgme {
+	display: block;
+	width: 100%;
+	border-style: solid;
+	border-radius: 50%;
 }
 @media only screen and (max-width: 900px) {
   .imagecontainer {
@@ -115,118 +120,118 @@ a{
   }
 }
 
-.projectholder{
-	background-color:#5F9EA0;
-	width:100%;
-	margin-top:50px;
-	display:flex;
-	justify-content:center;
+.projectholder {
+	background-color: #5F9EA0;
+	width: 100%;
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
 }
 
-.projects h1{
-	text-align:center;
+.projects h1 {
+	text-align: center;
 }
 
-.projects{
-	font-family:"spartan";
-	background-color:#ffffff;
-	width:75%;
-	margin:10px;
-	font-size:1rem;
+.projects {
+	font-family: "spartan";
+	background-color: #ffffff;
+	width: 75%;
+	margin: 10px;
+	font-size: 1rem;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 930px) {
   .projects {
-	  position:relative;
-	  display:block;
-	  height:auto;
+	  position: relative;
+	  display: block;
+	  height: auto;
   }
 }
 
-.pject{
+.pject {
 	width: 25%;
 	float: left;
 	margin: auto;
 	padding: 10px;
 }
 
-.pject img{
-	width:100%;
-	background-color:black;
+.pject img {
+	width: 100%;
+	background-color: black;
 }
-@media only screen and (max-width: 900px) {
-  .pject{
-	  width:50%;
-	  height:285;
+@media only screen and (max-width: 930px) {
+  .pject {
+	  width: 50%;
+	  height: 285;
   }
 }  
 
-.contactholder{
-	background-color:#5F9EA0;
-	width:100%;
-	margin-top:50px;
+.contactholder {
+	background-color: #5F9EA0;
+	width: 100%;
+	margin-top: 50px;
 }	
 
-.contactholder h2{
-	width:50%;
-	display:flex;
-	justify-content:center;
-	text-align:center;
-	line-height:150px;
+.contactholder h2 {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	line-height: 150px;
 	border-right: 1px solid #000000;
-	font-size:1.7rem;
+	font-size: 1.7rem;
 }
 @media only screen and (max-width: 900px) {
-  .contactholder h2{
-	  border-right:0;
-	   width:100%;
+  .contactholder h2 {
+	  border-right: 0;
+	   width: 100%;
   }
 } 
 
-.contacts{
-	width:100%;
+.contacts {
+	width: 100%;
 }
 
-.contacts h1{
-	text-align:center;
-	font-size:2rem;
-	font-family:"spartan";
-	margin:10px;
-	padding:20px;
+.contacts h1 {
+	text-align: center;
+	font-size: 2rem;
+	font-family: "spartan";
+	margin: 10px;
+	padding: 20px;
 	width: 25%;
 	margin: auto;
 }
 @media only screen and (max-width: 900px) {
-  .contacts h1{
-	  width:100%;
+  .contacts h1 {
+	  width: 100%;
   }
 } 
 
-.cicons{
-	float:right;
-	width:50%;
+.cicons {
+	float: right;
+	width: 50%;
 }
 @media only screen and (max-width: 900px) {
-  .cicons{
-	  width:100%;
+  .cicons {
+	  width: 100%;
   }
 } 
 
-.cicons img{
-	width:25%;
-	float:right;
-	margin:auto;w
-	padding:10px;
-	width:200px;
-	line-height:20px;
+.cicons img {
+	width: 25%;
+	float: right;
+	margin: auto;
+	padding: 10px;
+	width: 200px;
+	line-height: 20px;
 }
 @media only screen and (max-width: 900px) {
-  .cicons img{
+  .cicons img {
 	  border-bottom: 1px solid #000000;
   }
 } 
 @media only screen and (max-width: 1200px) {
-  .cicons img{
-	  width:33.3%;
+  .cicons img {
+	  width: 33.3%;
   }
 }
 
