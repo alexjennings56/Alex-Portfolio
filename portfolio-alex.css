@@ -80,6 +80,10 @@ body {
   }
 }
 
+.navholder span{
+	font-weight: bold;
+}
+
 a {
 	text-decoration: none;
 	color: #ffffff;
@@ -173,7 +177,6 @@ a {
 
 .contactholder {
 	background-color: #5F9EA0;
-	width: 100%;
 	margin-top: 50px;
 }	
 
@@ -189,13 +192,9 @@ a {
 @media only screen and (max-width: 900px) {
   .contactholder h2 {
 	  border-right: 0;
-	   width: 100%;
+	  width: 100%;
   }
 } 
-
-.contacts {
-	width: 100%;
-}
 
 .contacts h1 {
 	text-align: center;
