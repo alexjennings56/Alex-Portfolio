@@ -1,0 +1,247 @@
+*{
+	box-sizing:border-box;
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 62.5%;
+}
+
+.topheader {
+	position: relative;
+	top: 0;
+}
+	
+.logo {
+	background-color: #008080;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-bottom: solid;
+}
+
+.logotext {
+	font-size: 1.8rem;
+	font-family: "spartan";
+	width: 60%;
+}
+@media only screen and (max-width: 900px) {
+  .logotext {
+	  font-size: 1rem;
+  }
+}
+
+.navlinks {
+	position: absolute;
+	border: none;
+	font-size: 1.5rem;
+	padding: 10px;
+	line-height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	bottom: -40px;
+	width: 100%;
+	font-family: "spartan";
+	text-decoration: none;
+	font-weight: bold;
+}
+@media only screen and (max-width: 1230px) {
+  .navlinks {
+	  font-size: 1.5rem;
+	  width: 100vw;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .navlinks {
+	  bottom: -50px;
+  }
+}
+
+.navholder {
+	background-color: #5F9EA0;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 20px;
+	border-style: solid;
+}
+@media only screen and (max-width: 1230px) {
+  .navholder {
+	  display: flex;
+	  justify-content: row;
+	  text-align: center;
+	  font-size: 1rem;
+	  width: 100%;
+  }
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.navlink {
+	padding: 20px;
+}
+
+.aboutme {
+	margin-top: 50px;
+	display: flex;
+	font-size: 1.2rem;
+	font-family: "spartan";
+	background-color: #5F9EA0;
+}
+@media only screen and (max-width: 900px) {
+  .aboutme {
+	  display: block;
+  }
+}
+
+.aboutme p {
+	font-size: 1.2rem;
+	line-height: 50px;
+	margin: 50px;
+}
+
+.imagecontainer {
+	margin: 65px;
+	min-width: 350px;
+}
+
+.imgme {
+	display: block;
+	width: 100%;
+	border-style: solid;
+	border-radius: 50%;
+}
+@media only screen and (max-width: 900px) {
+  .imagecontainer {
+	  display: block;
+	  width: 50%;
+	  margin: 0 auto 20px auto;  
+  }
+}
+
+.projectholder {
+	background-color: #5F9EA0;
+	width: 100%;
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+.projects h1 {
+	text-align: center;
+}
+
+.projects {
+	font-family: "spartan";
+	background-color: #ffffff;
+	width: 75%;
+	margin: 10px;
+	font-size: 1rem;
+}
+@media only screen and (max-width: 930px) {
+  .projects {
+	  position: relative;
+	  display: block;
+	  height: auto;
+  }
+}
+
+.pject {
+	width: 25%;
+	float: left;
+	margin: auto;
+	padding: 10px;
+}
+
+.pject img {
+	width: 100%;
+	background-color: #000000;
+}
+@media only screen and (max-width: 930px) {
+  .pject {
+	  width: 50%;
+  }
+}  
+
+.contactholder {
+	background-color: #5F9EA0;
+	margin-top: 50px;
+}	
+
+.contactholder h2 {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	line-height: 150px;
+	border-right: 1px solid #000000;
+	font-size: 1.7rem;
+}
+@media only screen and (max-width: 900px) {
+  .contactholder h2 {
+	  border-right: 0;
+	  width: 100%;
+  }
+} 
+
+.contacts h1 {
+	text-align: center;
+	font-size: 2rem;
+	font-family: "spartan";
+	margin: 10px;
+	padding: 20px;
+	width: 25%;
+	margin: auto;
+}
+@media only screen and (max-width: 900px) {
+  .contacts h1 {
+	  width: 100%;
+  }
+} 
+
+.cicons {
+	float: right;
+	width: 50%;
+}
+@media only screen and (max-width: 900px) {
+  .cicons {
+	  width: 100%;
+  }
+} 
+
+.cicons img {
+	width: 25%;
+	float: right;
+	margin: auto;
+	padding: 10px;
+	width: 200px;
+	line-height: 20px;
+	opacity: 0.6;
+	transition: 0.3s;
+}
+
+.cicons img:hover {
+	opacity: 1;
+}
+@media only screen and (max-width: 900px) {
+  .cicons img {
+	  border-bottom: 1px solid #000000;
+  }
+} 
+@media only screen and (max-width: 1220px) {
+  .cicons img {
+	  width: 33.3%;
+  }
+}
+
+a h2 {
+	font-family: "spartan";
+}
