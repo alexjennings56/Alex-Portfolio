@@ -13,7 +13,7 @@ body {
 	position: relative;
 	top: 0;
 }
-	
+
 .logo {
 	background-color: #008080;
 	display: flex;
@@ -35,7 +35,8 @@ body {
 }
 
 .navlinks {
-	position: absolute;
+	position: sticky;
+	top: -10px;
 	border: none;
 	font-size: 1.5rem;
 	padding: 10px;
@@ -43,11 +44,12 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	bottom: -40px;
+	margin-top: -30px;
 	width: 100%;
 	font-family: "spartan";
 	text-decoration: none;
 	font-weight: bold;
+	z-index: 10;
 }
 @media only screen and (max-width: 1230px) {
   .navlinks {
@@ -69,6 +71,7 @@ body {
 	align-items: center;
 	border-radius: 20px;
 	border-style: solid;
+	z-index: 10;
 }
 @media only screen and (max-width: 1230px) {
   .navholder {
