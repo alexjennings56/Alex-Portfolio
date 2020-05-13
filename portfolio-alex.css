@@ -7,6 +7,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font-size: 62.5%;
+	font-family: "spartan";
 }
 
 .topheader {
@@ -15,7 +16,7 @@ body {
 }
 
 .logo {
-	background-color: #008080;
+	background-color: #797979;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -25,7 +26,6 @@ body {
 
 .logotext {
 	font-size: 1.8rem;
-	font-family: "spartan";
 	width: 60%;
 }
 @media only screen and (max-width: 900px) {
@@ -46,7 +46,6 @@ body {
 	align-items: center;
 	margin-top: -30px;
 	width: 100%;
-	font-family: "spartan";
 	text-decoration: none;
 	font-weight: bold;
 	z-index: 10;
@@ -64,7 +63,7 @@ body {
 }
 
 .navholder {
-	background-color: #5F9EA0;
+	background-color: #606060;
 	width: 50%;
 	display: flex;
 	justify-content: center;
@@ -96,8 +95,7 @@ a {
 	margin-top: 50px;
 	display: flex;
 	font-size: 1.2rem;
-	font-family: "spartan";
-	background-color: #5F9EA0;
+	background-color: #797979;
 }
 @media only screen and (max-width: 900px) {
   .aboutme {
@@ -131,7 +129,7 @@ a {
 }
 
 .projectholder {
-	background-color: #5F9EA0;
+	background-color: #797979;
 	width: 100%;
 	margin-top: 50px;
 	display: flex;
@@ -143,7 +141,6 @@ a {
 }
 
 .projects {
-	font-family: "spartan";
 	background-color: #ffffff;
 	width: 75%;
 	margin: 10px;
@@ -161,7 +158,8 @@ a {
 	width: 25%;
 	float: left;
 	margin: auto;
-	padding: 10px;
+	padding: 15px;
+	border: solid 1px;
 }
 
 .pject img {
@@ -175,8 +173,10 @@ a {
 }  
 
 .contactholder {
-	background-color: #5F9EA0;
+	background-color: #797979;
 	margin-top: 50px;
+	position: absolute;
+	width: 100%;
 }	
 
 .contactholder h2 {
@@ -198,11 +198,9 @@ a {
 .contacts h1 {
 	text-align: center;
 	font-size: 2rem;
-	font-family: "spartan";
 	margin: 10px;
 	padding: 20px;
 	width: 25%;
-	margin: auto;
 }
 @media only screen and (max-width: 900px) {
   .contacts h1 {
@@ -225,7 +223,6 @@ a {
 	float: right;
 	margin: auto;
 	padding: 10px;
-	width: 200px;
 	line-height: 20px;
 	opacity: 0.6;
 	transition: 0.3s;
@@ -243,8 +240,4 @@ a {
   .cicons img {
 	  width: 33.3%;
   }
-}
-
-a h2 {
-	font-family: "spartan";
 }
